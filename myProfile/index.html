@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Panfilo-Website</title>
+	</head>
+
+	<body>
+		<!-- arrow up icon -->
+		<a id="arrowUp" href="#home"
+			><i class="fa fa-chevron-circle-up arrow-up" aria-hidden="true"></i
+		></a>
+		<!-- header...... -->
+		<header id="header">
+			<div class="logo-icon">
+				<a href="./index.html" class="logo">Pan<span>filo</span></a>
+			</div>
+
+			<ul class="navigation">
+				<li><a class="nav-link active" href="#home">Home</a></li>
+				<li><a class="nav-link" href="#skills">Skills</a></li>
+				<li><a class="nav-link" href="#project">Project</a></li>
+				<li><a class="nav-link" href="#about">About</a></li>
+				<li><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+
+			<!--hidden toggler-->
+			<div class="toggler">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</header>
+
+		<!--sectionssssss-->
+
+		<!-- home -->
+		<section id="home">
+			<div class="identity-container">
+				<h6 class="introduce">Hi<span style="color: var(--lightblue)">,</span></h6>
+
+				<h1 class="name font-effect-3d"><span class="color-text">I'm</span> Panfilo P. Macantan</h1>
+				<div><span class="typing"></span></div>
+			</div>
+
+			<div class="scroll-down">
+				<i class="fa fa-angle-down" aria-hidden="true"></i>
+			</div>
+		</section>
+
+		<!-- skills -->
+		<section id="skills">
+			<h1 class="description">SKILLS</h1>
+			<div class="skills-container">
+				<div data-aos="fade-up" class="box" id="HTML"></div>
+				<div data-aos="fade-up" class="box" id="CSS"></div>
+				<div data-aos="fade-up" class="box" id="JAVASCRIPT"></div>
+				<div data-aos="fade-up" class="box" id="BOOTSTRAP"></div>
+				<div data-aos="fade-up" class="box" id="PHP"></div>
+				<div data-aos="fade-up" class="box" id="SASS"></div>
+			</div>
+		</section>
+
+		<!-- project -->
+		<section id="project">
+			<h1 class="description">PROJECTS</h1>
+			<div class="project-container">
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+				<div data-aos="fade-up" class="box"></div>
+			</div>
+		</section>
+
+		<!-- about -->
+		<section id="about">
+			<h1 class="description">ABOUT</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla placeat at explicabo in
+				laboriosam fugiat consequatur dolores corrupti non nostrum! Lorem ipsum dolor sit amet
+				consectetur adipisicing elit. Nulla placeat at explicabo in laboriosam fugiat
+				consequatur dolores corrupti non nostrum!
+			</p>
+
+			<!-- info -->
+			<div class="info-interest">
+				<h1>My Interest</h1>
+				<ul>
+				<li><i class="fa fa-music" aria-hidden="true"></i></li>
+				<li><i class="fa fa-laptop" aria-hidden="true"></i></li>
+				<li><i class="fa fa-car" aria-hidden="true"></i></li>
+				</ul>
+			</div>
+		</section>
+		<!-- contact -->
+		<section id="contact">
+			<h1 class="description">CONTACTS</h1>
+			<!---contact form-->
+			<div class="contact-grid">
+				<div class="form-container">
+					<form action="">
+						<label for="name">Name*</label>
+						<input type="text" id="name" placeholder="Name" />
+						<label for="email">Email*</label>
+						<input type="email" id="email" placeholder="Email" />
+						<label for="message">Message*</label>
+						<textarea
+							id="message"
+							cols="30"
+							rows="6"
+							placeholder="Type a message . . ."
+						></textarea>
+						<input type="button" value="Send" />
+					</form>
+				</div>
+				<ul>
+					<h1 style="text-align: center;font-size: 2rem;transform: translateY(-20px);">Get in touch</h1>
+					<li><i class="fa fa-user" aria-hidden="true"></i><span>Panfilo P. Macantan</span></li>
+					<li><i class="fa fa-phone-square" aria-hidden="true"></i><span>09560048355</span></li>
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i><span>123 Del Remedios St. Burauen, Leyte Philippines</li></span>
+				</ul>
+			</div>
+			<div id="contact-container">
+				<ul class="social-account">
+					<li>
+						<a href="https://github.com/Panfilomacantan2" target="_blank"
+							><i class="fa fa-github" aria-hidden="true"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/panfilo.macantan/" target="_blank"
+							><i class="fa fa-facebook" aria-hidden="true"></i
+						></a>
+					</li>
+					<li>
+						<a href="mailto:panfilomacantan.pm@gmail.com" target="_blank"
+							><i class="fa fa-envelope" aria-hidden="true"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/panfilo-macantan-0727a4216/" target="_blank"
+							><i class="fa fa-linkedin" aria-hidden="true"></i
+						></a>
+					</li>
+				</ul>
+				<!----Contact me-->
+				<div class="msg-box">
+					<p>
+						If you wanna get in touch, talk to me about a project or just say hi send an email
+						to panfilomacantan.pm@gmail.com and let's talk
+					</p>
+
+					<p><i class="fa fa-envelope" aria-hidden="true"></i>panfilomacantan.pm@gmail.com</p>
+
+					<p><i class="fa fa-briefcase" aria-hidden="true"></i>Freelancer</p>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<!--copy Right-->
+			<h4 class="copyright">
+				<i class="fa fa-copyright" aria-hidden="true"></i> Copyright <span class="year"></span>
+			</h4>
+		</footer>
+		
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+    	<script src="https://unpkg.com/tippy.js@6"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="./app.js"></script>
+		<script>
+			
+
+			AOS.init({
+				duration: 1000,
+				offset: 100
+			});
+
+			
+
+          tippy('#HTML', {
+               content: 'HTML',
+			   arrow: true,
+			   animation: 'scale-extreme',
+			   followCursor: true,
+			   theme: 'translucent'
+          });
+
+		   tippy('#CSS', {
+               content: 'CSS',
+			   arrow: true,
+			   animation: 'scale-extreme',
+			   followCursor: true,
+			   theme: 'gradient'
+          });
+		   tippy('#JAVASCRIPT', {
+               content: 'JAVASCRIPT',
+			   arrow: true,
+			   animation: 'scale-extreme',
+			   followCursor: true,
+			   theme: 'gradient'
+          });
+		   tippy('#BOOTSTRAP', {
+               content: 'BOOTSTRAP',
+			   arrow: true,
+			   animation: 'scale-extreme',
+			   followCursor: true,
+			   theme: 'gradient'
+          });
+		   tippy('#PHP', {
+               content: 'PHP',
+			   arrow: true,
+			   animation: 'scale-extreme',
+			   followCursor: true,
+			   theme: 'gradient'
+          });
+		   tippy('#SASS', {
+               content: 'SASS',
+			   arrow: true,
+			   animation: 'scale-extreme',
+			   followCursor: true,
+			   theme: 'gradient'
+          });
+
+
+		</script>
+	</body>
+</html>
